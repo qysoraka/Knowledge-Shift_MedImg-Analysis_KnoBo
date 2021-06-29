@@ -3,4 +3,4 @@ You need to download the images of each dataset from their original sources. We 
 
 
 ### X-ray Datasets
-* **MIMIC-CXR**: Download the images from [https
+* **MIMIC-CXR**: Download the images from [https://physionet.org/content/mimic-cxr-jpg/2.1.0/](https://physionet.org/content/mimic-cxr-jpg/2.1.0/). We also provided the metadata we organized in `data/datasets/MIMIC-CXR/MIMIC-CXR_metadata.json`, including
