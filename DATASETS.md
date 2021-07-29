@@ -7,4 +7,6 @@ You need to download the images of each dataset from their original sources. We 
 
 * **NIH-CXR**: Download the images from [https://www.kaggle.com/datasets/nih-chest-xrays/data](https://www.kaggle.com/datasets/nih-chest-xrays/data). An example image path in our split is `NIH-CXR/images_002/images/00001906_004.png`.
 
-* **CheXpert**: Download the images from [https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2/](h
+* **CheXpert**: Download the images from [https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2/](https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2). An example image path in our split is `CheXpert-v1.0/train/patient10900/study25/view1_frontal.jpg`.
+
+* **Pneumonia**: Down
