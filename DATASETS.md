@@ -9,4 +9,4 @@ You need to download the images of each dataset from their original sources. We 
 
 * **CheXpert**: Download the images from [https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2/](https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2). An example image path in our split is `CheXpert-v1.0/train/patient10900/study25/view1_frontal.jpg`.
 
-* **Pneumonia**: Down
+* **Pneumonia**: Download the images from [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). An example image path in our split is `pneumonia/images/test
