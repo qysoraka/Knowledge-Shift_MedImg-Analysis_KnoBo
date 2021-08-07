@@ -11,4 +11,6 @@ You need to download the images of each dataset from their original sources. We 
 
 * **Pneumonia**: Download the images from [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). An example image path in our split is `pneumonia/images/test/PNEUMONIA/person112_bacteria_538.jpeg`.
 
-* **COVID-QU**: Download the images from [https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database](https://www.kaggle.com/datasets/tawsif
+* **COVID-QU**: Download the images from [https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database). An example image path in our split is `COVID-QU/images/COVID-3330.png`.
+
+* **Open-i**: Download the images from [https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-uni
