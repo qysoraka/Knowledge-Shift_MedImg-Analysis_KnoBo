@@ -19,4 +19,4 @@ You need to download the images of each dataset from their original sources. We 
 
 
 ### Skin Lesion Datasets
-* **ISIC**: Download the entire archive (81621 images) using official command line tool [https://github.com/ImageMarkup/isic-cli?tab=readme-ov-file#do
+* **ISIC**: Download the entire archive (81621 images) using official command line tool [https://github.com/ImageMarkup/isic-cli?tab=readme-ov-file#downloading-images](https://github.com/ImageMarkup/isic-cli?tab=readme-ov-file#downloading-images). An example image path in our split is `ISIC/images/ISIC_0060248.JPG`. We also provided the metadata we organiz
