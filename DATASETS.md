@@ -13,4 +13,6 @@ You need to download the images of each dataset from their original sources. We 
 
 * **COVID-QU**: Download the images from [https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database). An example image path in our split is `COVID-QU/images/COVID-3330.png`.
 
-* **Open-i**: Download the images from [https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-uni
+* **Open-i**: Download the images from [https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university). An example image path in our split is `open-i/images/1907_IM-0589-1001.dcm.png`.
+
+* **VinDr-CXR**: Download the images from [https://w
