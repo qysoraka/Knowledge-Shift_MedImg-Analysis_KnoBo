@@ -23,4 +23,6 @@ You need to download the images of each dataset from their original sources. We 
 
 * **HAM10000**: Download the images from [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T). An example image path in our split is `HAM10000/images/ISIC_0033762.jpg`.
 
-* **PAD-UFES-20**: Download the images from [https://www.kag
+* **PAD-UFES-20**: Download the images from [https://www.kaggle.com/datasets/mahdavi1202/skin-cancer](https://www.kaggle.com/datasets/mahdavi1202/skin-cancer). An example image path in our split is `PAD-UFES-20/images/PAT_1850_3631_519.png`.
+
+* **Melanoma**: Download the images
