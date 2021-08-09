@@ -15,4 +15,4 @@ You need to download the images of each dataset from their original sources. We 
 
 * **Open-i**: Download the images from [https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university). An example image path in our split is `open-i/images/1907_IM-0589-1001.dcm.png`.
 
-* **VinDr-CXR**: Download the images from [https://w
+* **VinDr-CXR**: Download the images from [https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/data](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/data). An example image path in our split is `vindr-cxr/images/e1eb9553f694d
