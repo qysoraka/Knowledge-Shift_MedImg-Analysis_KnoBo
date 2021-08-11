@@ -25,4 +25,4 @@ You need to download the images of each dataset from their original sources. We 
 
 * **PAD-UFES-20**: Download the images from [https://www.kaggle.com/datasets/mahdavi1202/skin-cancer](https://www.kaggle.com/datasets/mahdavi1202/skin-cancer). An example image path in our split is `PAD-UFES-20/images/PAT_1850_3631_519.png`.
 
-* **Melanoma**: Download the images
+* **Melanoma**: Download the images from [https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/d
