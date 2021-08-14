@@ -27,4 +27,4 @@ You need to download the images of each dataset from their original sources. We 
 
 * **Melanoma**: Download the images from [https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data). An example image path in our split is `Melanoma/test/benign/melanoma_9999.jpg`.
 
-* **UWaterloo**: Download the images from [https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection](https:
+* **UWaterloo**: Download the images from [https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection](https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection). An example image path in our split is `UWaterloo/notmelanoma/dermquest/D39_orig.jpg`.
