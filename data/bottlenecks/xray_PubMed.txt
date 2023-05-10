@@ -190,3 +190,12 @@ Can radiographic opacities consistent with an alveolar filling process be detect
 Is there evidence of blurred ila and perivascular or peribronchial cuffs?
 Are there any signs of parenchymal anomalies?
 Are there primary opacities observed?
+Is there an indication of a mediastinal mass?
+Are there any signs of chest infection?
+Are there any signs of heart failure?
+Is there evidence of elevated hilar structures?
+Is there evidence of pneumothorax in the left lung?
+Are there abnormal masses visible in the lungs?
+Are there any visible signs of mediastinal adenopathy?
+Can any opacity be identified in the lungs?
+Is there an apical pleural stripe visible?
