@@ -170,3 +170,32 @@ Does the lesion appear larger than 6mm in diameter?
 Does the lesion exhibit a change in size, shape, or color?
 Does the lesion appear elevated or raised from the skin?
 Is there any bleeding or oozing from the lesion?
+Does the skin around the lesion appear reddened or inflamed?
+Does the lesion have a rough or scaly surface?
+Is there a loss of skin surface structure within the lesion area?
+Is the border of the lesion irregular?
+Does the lesion have varied colors?
+Is the diameter of the lesion larger than 6mm?
+Is the lesion evolving or changing over time?
+Is the texture of the lesion scaly?
+Is there a visible redness or inflammation around the lesion?
+Does the lesion appear raised or elevated from the skin?
+Is there bleeding or oozing from the lesion?
+Is the lesion shiny or glossy in appearance?
+Does the lesion look like a scar without defined borders?
+Does the lesion have irregular borders?
+Are there multiple colors present in the lesion?
+Is the diameter of the lesion larger than 6mm?
+Has the lesion evolved or changed over time?
+Is the texture of the lesion rough or uneven?
+Is there any evidence of bleeding or oozing from the lesion?
+Does the lesion appear elevated or raised from the skin?
+Does the area around the lesion appear discolored or inflamed?
+Is there a notable lack of uniformity in the pigmentation of the lesion?
+Does the lesion have an atypical shape?
+Does the lesion have irregular borders?
+Is the color of the lesion uneven?
+Does the lesion diameter exceed 6mm?
+Is the lesion evolving or changing over time?
+Does the lesion have different shades of color?
+Is there redness or swelling beyond the border of the lesion?
