@@ -12,4 +12,9 @@ Is there dilatation of the pulmonary artery?
 Is there an enlarged cardiomediastinal silhouette?
 Are there signs of pulmonary congestion?
 Is there presence of pleural effusion?
-Are there incr
+Are there increased pulmonary vascular markings?
+Are there signs of volume overload?
+Is there pulmonary edema visible?
+Can signs of consolidation be detected?
+Are pulmonary vessels engorged?
+Is there a presence of pulmonary infiltrate?
