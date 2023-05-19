@@ -18,3 +18,8 @@ Is there pulmonary edema visible?
 Can signs of consolidation be detected?
 Are pulmonary vessels engorged?
 Is there a presence of pulmonary infiltrate?
+Is there flattening of the costophrenic angles and enlargement of the cardiac silhouette?
+Are the costodiaphragmatic angles blunted?
+Are there lung filled with radiolucent fluid?
+Is there an elevation of the hemidiaphragm on the affected side?
+Is there pres
