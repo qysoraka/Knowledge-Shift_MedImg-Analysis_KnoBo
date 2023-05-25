@@ -35,4 +35,9 @@ Can signs of lung architectural distortion be seen?
 Are there signals of ground-glass opacities or consolidations?
 Can any reticulonodular opacities be detected?
 Is there any change in the chest x-ray?
-Are there any new infiltrates visible on the che
+Are there any new infiltrates visible on the chest x-ray?
+Are there lobar consolidations?
+Can nodular densities be seen in the chest x-ray?
+Is there interstitial infiltrates visible on the chest x-ray?
+Are there bilateral infiltrates seen in the chest x-ray?
+Can an abnormal infiltrate
