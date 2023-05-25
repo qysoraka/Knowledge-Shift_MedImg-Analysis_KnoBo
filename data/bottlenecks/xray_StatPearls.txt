@@ -26,4 +26,9 @@ Is there presence of alveolar infiltrates?
 Are there signs of increased vascular congestion?
 Is there any indication of pulmonary fibrosis?
 Are there small interstitial nodules in the upper and mid zones of the lungs?
-Are there ill-defined pulmonary opacitie
+Are there ill-defined pulmonary opacities present?
+Are there any signs of a pneumothorax?
+Are there signs of hilar or mediastinal lymph nodes enlargement?
+Is there any evidence of parenchymal disease?
+Are peripheral reticular opacities present in the lower lobes?
+Can sig
