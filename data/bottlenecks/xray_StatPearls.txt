@@ -31,4 +31,8 @@ Are there any signs of a pneumothorax?
 Are there signs of hilar or mediastinal lymph nodes enlargement?
 Is there any evidence of parenchymal disease?
 Are peripheral reticular opacities present in the lower lobes?
-Can sig
+Can signs of lung architectural distortion be seen?
+Are there signals of ground-glass opacities or consolidations?
+Can any reticulonodular opacities be detected?
+Is there any change in the chest x-ray?
+Are there any new infiltrates visible on the che
