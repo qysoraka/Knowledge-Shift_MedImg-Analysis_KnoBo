@@ -49,4 +49,8 @@ Is there ground-glass haziness in the lung?
 Are bilateral consolidations present?
 Is there dense consolidation observed?
 Is there consolidation present at the base of the lungs?
-Do the depen
+Do the dependent pulmonary segments show irregular densities suggesting consolidation?
+Can worsening consolidation be observed?
+Is there any focal consolidation observed?
+Is there a convex contour of the right superior mediastinum?
+Is ther
