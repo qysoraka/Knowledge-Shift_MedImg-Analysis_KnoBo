@@ -44,4 +44,9 @@ Can an abnormal infiltrate be seen on chest x-ray?
 Are there signs of collapse or consolidation in the lung?
 Is there any evidence of necrotizing pneumonia on the chest x-ray?
 Do the lungs appear hyperinflated on the chest x-ray?
-Can a lung mass be 
+Can a lung mass be identified?
+Is there ground-glass haziness in the lung?
+Are bilateral consolidations present?
+Is there dense consolidation observed?
+Is there consolidation present at the base of the lungs?
+Do the depen
