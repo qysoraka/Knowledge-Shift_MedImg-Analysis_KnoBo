@@ -56,4 +56,8 @@ Is there a convex contour of the right superior mediastinum?
 Is there a widened mediastinum on chest X-ray?
 Is there evidence of pulmonary congestion such as upper lobe diversion, increased interstitial markings, and Kerley B lines?
 Is there loss of the aortic knob contour?
-Is there a radiolucent area of a
+Is there a radiolucent area of air in the lung field?
+Are there bilateral multifocal alveolar opacities visible?
+Are there any abnormal findings on the chest X-ray or chest CT?
+Is the chest X-ray normal?
+Are there indications of hemothorax or pneumothorax
