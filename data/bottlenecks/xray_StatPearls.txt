@@ -60,4 +60,9 @@ Is there a radiolucent area of air in the lung field?
 Are there bilateral multifocal alveolar opacities visible?
 Are there any abnormal findings on the chest X-ray or chest CT?
 Is the chest X-ray normal?
-Are there indications of hemothorax or pneumothorax
+Are there indications of hemothorax or pneumothorax on the lung images?
+Is there reticular or reticulonodular interstitial markings?
+Is there thickening of interlobular septa?
+Are Kerley B lines visible?
+Is there pleural disease?
+Is there hyperinflation of 
