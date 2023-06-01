@@ -65,4 +65,9 @@ Is there reticular or reticulonodular interstitial markings?
 Is there thickening of interlobular septa?
 Are Kerley B lines visible?
 Is there pleural disease?
-Is there hyperinflation of 
+Is there hyperinflation of the lungs evident?
+Is there flattening of the diaphragm?
+Is there an increased anterior-posterior diameter?
+Is bronchial wall thickening present?
+Is there evidence of bullae in the subpleural regions?
+I
