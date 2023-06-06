@@ -70,4 +70,8 @@ Is there flattening of the diaphragm?
 Is there an increased anterior-posterior diameter?
 Is bronchial wall thickening present?
 Is there evidence of bullae in the subpleural regions?
-I
+Is there a pneumothorax visible in the postoperative chest X-ray?
+Is there marked asymmetry in a pleural effusion?
+Is there evidence of peribronchial thickening?
+Can pleural effusion be detected?
+Is there interstitial edema vis
