@@ -74,4 +74,9 @@ Is there a pneumothorax visible in the postoperative chest X-ray?
 Is there marked asymmetry in a pleural effusion?
 Is there evidence of peribronchial thickening?
 Can pleural effusion be detected?
-Is there interstitial edema vis
+Is there interstitial edema visible?
+Are interlobar fissures visibly thickened?
+Is there circumferential pleural thickening?
+Is there evidence of pleural nodularity?
+Can an enlargement of the mediastinum be appreciated in the chest X-ray?
+Are increased int
