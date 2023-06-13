@@ -79,4 +79,8 @@ Are interlobar fissures visibly thickened?
 Is there circumferential pleural thickening?
 Is there evidence of pleural nodularity?
 Can an enlargement of the mediastinum be appreciated in the chest X-ray?
-Are increased int
+Are increased interstitial markings visible on the chest X-ray?
+Is there a persistent, ill-defined opacity?
+Is a multifocal or diffuse opacity visible?
+Is there an anterior mediastinal mass appearance?
+Is there a feature suggestive of cavitation within 
