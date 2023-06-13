@@ -83,4 +83,7 @@ Are increased interstitial markings visible on the chest X-ray?
 Is there a persistent, ill-defined opacity?
 Is a multifocal or diffuse opacity visible?
 Is there an anterior mediastinal mass appearance?
-Is there a feature suggestive of cavitation within 
+Is there a feature suggestive of cavitation within a tumor mass?
+Is there any visually noticeable change in the wideness of the mediastinum?
+Does the chest X-ray reveal parenchymal infiltrate changes predominantly in the upper lobes?
+Are there any wedge-shaped, f
