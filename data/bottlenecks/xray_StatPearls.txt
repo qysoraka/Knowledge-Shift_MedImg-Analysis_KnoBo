@@ -88,4 +88,7 @@ Is there any visually noticeable change in the wideness of the mediastinum?
 Does the chest X-ray reveal parenchymal infiltrate changes predominantly in the upper lobes?
 Are there any wedge-shaped, focal opacities in the periphery of the lung?
 Is there a unilateral loss of lung volume with hyperlucency as demonstrated by chest X-ray?
-Are there any diffuse, ill-defined haziness and emphysema present in the lower 
+Are there any diffuse, ill-defined haziness and emphysema present in the lower lung fields?
+Has there been shown a deviation of the mediastinum to the contralateral lung on the chest x-ray?
+Are there diffuse alveolar infiltrates greatest at the lung bases in the plain film chest radiographs?
+Does 
