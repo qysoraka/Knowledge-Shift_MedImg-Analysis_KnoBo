@@ -95,4 +95,8 @@ Does the chest X-ray display a pattern of reticular opacities with fibrosis?
 Are there any patchy opacities shown in the chest X-ray?
 Are there fluid-containing structures in the thoracic cavity?
 Is there a mediastinal shift visible?
-Can air-f
+Can air-fluid levels above the diaphragm be identified?
+Is there right heart enlargement visible?
+Are there signs of a flattened diaphragm?
+Can signs of pleural effusions be observed?
+Is there an opacification of the aortopulmonary windo
