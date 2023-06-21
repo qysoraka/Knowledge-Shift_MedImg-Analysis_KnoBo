@@ -103,4 +103,8 @@ Is there an opacification of the aortopulmonary window?
 Is there evidence of pulmonary contusion?
 Are there indications of acute respiratory distress syndrome (ARDS)?
 Can bilateral infiltrates be identified on the chest X-ray?
-Are there signs of a tension pneumo
+Are there signs of a tension pneumothorax?
+Does the chest X-ray display indicators of subcutaneous emphysema?
+Can you identify ground glass opacification in lower zones of the lung?
+Is there a shift of the trachea?
+Is there an effacement of lung markings dista
