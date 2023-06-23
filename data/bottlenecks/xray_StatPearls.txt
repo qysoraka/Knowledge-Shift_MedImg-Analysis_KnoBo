@@ -107,4 +107,9 @@ Are there signs of a tension pneumothorax?
 Does the chest X-ray display indicators of subcutaneous emphysema?
 Can you identify ground glass opacification in lower zones of the lung?
 Is there a shift of the trachea?
-Is there an effacement of lung markings dista
+Is there an effacement of lung markings distally to a thin line?
+Is the trachea located in the midline?
+Is there an elevation of the ipsilateral diaphragm?
+Is there a deviation of the trachea to the contralateral side?
+Can a tracheobronchial anomaly be observed?
+Is there 
