@@ -112,4 +112,8 @@ Is the trachea located in the midline?
 Is there an elevation of the ipsilateral diaphragm?
 Is there a deviation of the trachea to the contralateral side?
 Can a tracheobronchial anomaly be observed?
-Is there 
+Is there an elevation of one hemidiaphragm compared to the other?
+Are there indications of lung fibrosis?
+Is there loss of lung volume?
+Are there indications of flattened diaphragm?
+Are lung markings difficult to s
