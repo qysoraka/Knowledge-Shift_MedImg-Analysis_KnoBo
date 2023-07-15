@@ -122,4 +122,7 @@ Are there radiographic signs of lung collapse?
 Are there parallel linear densities?
 Is there an increase in bibasilar nodular opacities?
 Are large air-filled cysts visible?
-Can you detect a well-ci
+Can you detect a well-circumscribed opacity projecting beyond the regular cardiac outline?
+Are there patchy or homogeneous, bilateral interstitial and alveolar nodular infiltrates?
+Is there a single lung opacity?
+Is the lung nodule discrete and unattached to th
