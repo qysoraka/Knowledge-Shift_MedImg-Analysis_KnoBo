@@ -125,4 +125,8 @@ Are large air-filled cysts visible?
 Can you detect a well-circumscribed opacity projecting beyond the regular cardiac outline?
 Are there patchy or homogeneous, bilateral interstitial and alveolar nodular infiltrates?
 Is there a single lung opacity?
-Is the lung nodule discrete and unattached to th
+Is the lung nodule discrete and unattached to the lung border or pleura?
+Are there multiple nodules varying in size from 0.5 to 5 centimeters?
+Are there indications of peripheral infiltrates in the chest X-rays?
+Are there any intrapulmonary nodules visible on chest X-ray?
+Is there a 
