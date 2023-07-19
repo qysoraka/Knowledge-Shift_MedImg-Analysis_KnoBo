@@ -129,4 +129,9 @@ Is the lung nodule discrete and unattached to the lung border or pleura?
 Are there multiple nodules varying in size from 0.5 to 5 centimeters?
 Are there indications of peripheral infiltrates in the chest X-rays?
 Are there any intrapulmonary nodules visible on chest X-ray?
-Is there a 
+Is there a lung nodule of more than 8mm in size?
+Is there distension of any pulmonary lobe?
+Is the mediastinum shifted?
+Is the lateral diaphragm flattened on the affected side?
+Is there evidence of lung hyperinflation?
+Ar
