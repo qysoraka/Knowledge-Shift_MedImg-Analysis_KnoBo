@@ -134,4 +134,8 @@ Is there distension of any pulmonary lobe?
 Is the mediastinum shifted?
 Is the lateral diaphragm flattened on the affected side?
 Is there evidence of lung hyperinflation?
-Ar
+Are there signs of prominent or dilated pulmonary artery?
+Are cystic changes detectable?
+Is there evidence of lung atelectasis?
+Can you see bilateral diffuse alveolar or interstitial infiltrates?
+Are there any signs of bilater
