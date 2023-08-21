@@ -153,4 +153,9 @@ Is an enlarged cardiac silhouette present?
 Is the cardiothoracic ratio more than 50%?
 Is there an increased right heart border convexity?
 Is there a "double density" sign?
-Is there cephalization of
+Is there cephalization of the pulmonary vessels?
+Is there presence of Kerley B-lines?
+Is there a rounded cardiac silhouette?
+Are signs of pulmonary venous hypertension visible?
+Is there widening of the cardiac silhouette?
+Are signs of con
