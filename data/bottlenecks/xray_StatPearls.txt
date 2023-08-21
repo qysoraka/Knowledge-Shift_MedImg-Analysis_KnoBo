@@ -158,4 +158,7 @@ Is there presence of Kerley B-lines?
 Is there a rounded cardiac silhouette?
 Are signs of pulmonary venous hypertension visible?
 Is there widening of the cardiac silhouette?
-Are signs of con
+Are signs of congestive heart failure present?
+Is there vascular fullness at the left lung base more than the right?
+Is there an indication of alveolar edema?
+Does the X-ray show signs of pulmonary congestion with an absence of left atr
