@@ -164,4 +164,9 @@ Is there an indication of alveolar edema?
 Does the X-ray show signs of pulmonary congestion with an absence of left atrial enlargement?
 Does the X-ray show increased pulmonary vasculature or haziness of vascular margins suggesting fluid overload?
 Is there evidence of mediastinal mass?
-Are there signs of fluid accumulation in the thora
+Are there signs of fluid accumulation in the thoracic cavity?
+Are there indications of a mass in the thoracic cavity?
+Is there presence of abnormal pleural fluid?
+Is there an increase in pulmonary vascular markings?
+Are lung markings decreased?
+Is there evidence of poor
