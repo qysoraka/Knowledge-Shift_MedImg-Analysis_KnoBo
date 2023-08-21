@@ -138,4 +138,9 @@ Are there signs of prominent or dilated pulmonary artery?
 Are cystic changes detectable?
 Is there evidence of lung atelectasis?
 Can you see bilateral diffuse alveolar or interstitial infiltrates?
-Are there any signs of bilater
+Are there any signs of bilateral heterogeneous consolidation?
+Are there focal areas of hyperlucency?
+Is there a mediastinal widening?
+Is there an over 8 cm width of the mediastinum?
+Is there a sign of pneumomediastinum?
+Is there an abnormal mediastina
