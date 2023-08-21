@@ -161,4 +161,7 @@ Is there widening of the cardiac silhouette?
 Are signs of congestive heart failure present?
 Is there vascular fullness at the left lung base more than the right?
 Is there an indication of alveolar edema?
-Does the X-ray show signs of pulmonary congestion with an absence of left atr
+Does the X-ray show signs of pulmonary congestion with an absence of left atrial enlargement?
+Does the X-ray show increased pulmonary vasculature or haziness of vascular margins suggesting fluid overload?
+Is there evidence of mediastinal mass?
+Are there signs of fluid accumulation in the thora
