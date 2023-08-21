@@ -173,4 +173,9 @@ Is there evidence of poor lung vasculature markings?
 Is there a difference in X-ray appearance between different lung zones?
 Does the chest x-ray show signs of cardiomegaly?
 Do diffuse bilateral infiltrates appear on the X-ray?
-Is there evidence of free air below the diaphragm
+Is there evidence of free air below the diaphragm?
+Are enlarged central pulmonary arteries visible on the X-ray?
+Can respiratory distress findings be observed on the chest X-ray?
+Is there fluid in the lungs?
+Does the X-ray show a narrowing of the trachea?
+Are signs of right
