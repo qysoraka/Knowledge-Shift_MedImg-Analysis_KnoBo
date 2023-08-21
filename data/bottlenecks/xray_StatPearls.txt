@@ -143,4 +143,9 @@ Are there focal areas of hyperlucency?
 Is there a mediastinal widening?
 Is there an over 8 cm width of the mediastinum?
 Is there a sign of pneumomediastinum?
-Is there an abnormal mediastina
+Is there an abnormal mediastinal contour on the X-ray?
+Can an abnormal mass be identified on a chest X-ray?
+Is there an area of hyperlucency?
+Can areas of well-defined, round masses be observed?
+Are there signs of atelectasis?
+Is there a sign of pulmona
