@@ -148,4 +148,9 @@ Can an abnormal mass be identified on a chest X-ray?
 Is there an area of hyperlucency?
 Can areas of well-defined, round masses be observed?
 Are there signs of atelectasis?
-Is there a sign of pulmona
+Is there a sign of pulmonary vascular congestion?
+Is an enlarged cardiac silhouette present?
+Is the cardiothoracic ratio more than 50%?
+Is there an increased right heart border convexity?
+Is there a "double density" sign?
+Is there cephalization of
