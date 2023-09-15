@@ -181,4 +181,9 @@ Does the X-ray show a narrowing of the trachea?
 Are signs of right ventricular enlargement visible?
 Does the chest X-ray show enlarged cardiac structures?
 Is there evidence of non-cardiogenic pulmonary edema or ARDS in the chest x-ray?
-Are there any anatomical abnormalities visible in the chest x-ra
+Are there any anatomical abnormalities visible in the chest x-ray?
+Does the chest X-ray show signs of pneumonia?
+Can diffuse nodules be seen in the chest x-ray?
+Are there nodules with ground glass infiltrates?
+Does the chest x-ray show presence of a pneumatocele?
+Is there a localized 
