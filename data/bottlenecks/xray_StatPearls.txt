@@ -189,4 +189,8 @@ Does the chest x-ray show presence of a pneumatocele?
 Is there a localized ground glass opacification on the lung?
 Can ill-defined nodules be seen on the chest x-ray?
 Is there evidence of diffuse patchy infiltrates on the chest x-ray?
-Can transient or changing infiltrates be detected over time in the che
+Can transient or changing infiltrates be detected over time in the chest x-ray?
+Is there a predominance of abnormalities in the upper lobe of the lungs in the chest x-ray?
+Is the cardiac silhouette enlarged?
+Can atelectasis of the lower sub-segments of the lung be identified?
+Is th
