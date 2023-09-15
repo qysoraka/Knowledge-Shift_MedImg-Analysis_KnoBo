@@ -178,4 +178,7 @@ Are enlarged central pulmonary arteries visible on the X-ray?
 Can respiratory distress findings be observed on the chest X-ray?
 Is there fluid in the lungs?
 Does the X-ray show a narrowing of the trachea?
-Are signs of right
+Are signs of right ventricular enlargement visible?
+Does the chest X-ray show enlarged cardiac structures?
+Is there evidence of non-cardiogenic pulmonary edema or ARDS in the chest x-ray?
+Are there any anatomical abnormalities visible in the chest x-ra
