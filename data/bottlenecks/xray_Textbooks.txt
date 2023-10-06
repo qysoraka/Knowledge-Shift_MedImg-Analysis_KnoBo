@@ -1,0 +1,9 @@
+
+Does the chest X-ray show a hyperlucent affected lobe?
+Does the chest X-ray reveal associated atelectasis?
+Is there evidence of lobar collapse in the chest x-ray?
+Are there horizontal lines present on the chest x-ray?
+Does the chest x-ray show signs of hyperexpansion?
+Is there evidence of right ventricular enlargement?
+Is there an enlargement of the central pulmonary arteries?
+Is the heart appearing mildly enlarged?

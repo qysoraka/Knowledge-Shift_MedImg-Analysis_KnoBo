@@ -193,4 +193,8 @@ Can transient or changing infiltrates be detected over time in the chest x-ray?
 Is there a predominance of abnormalities in the upper lobe of the lungs in the chest x-ray?
 Is the cardiac silhouette enlarged?
 Can atelectasis of the lower sub-segments of the lung be identified?
-Is th
+Is there a difference in levels between the right and left diaphragm?
+Is there an increased pulmonary diameter?
+Is there evidence of edema at the lung bases?
+Is the cardiothoracic ratio increased?
+Is the diaphragm at a higher level?
