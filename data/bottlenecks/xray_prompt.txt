@@ -1,0 +1,34 @@
+
+Is there a noticeable shift in the mediastinum?
+Are the lung volumes reduced?
+Is there an elevated diaphragm present?
+Are there signs of lung crowding?
+Is there a loss of lung markings?
+Is the trachea deviated?
+Are lung fissures displaced?
+Is the heart border unsharp?
+Is the lung field obscured?
+Are the lung markings diminished?
+Is there evidence of air trapping?
+Can you see an elevated diaphragm?
+Are the borders of the heart and aorta obscured?
+Is the mediastinum shifted?
+Is there a visible pleural line?
+Are the rib spaces widened?
+Is tracheal shift visible?
+Is there uniform darkness in any part of the lung?
+Is there a reduction in lung volume?
+Are the lung markings absent or decreased?
+Is there an increased density on the affected area?
+Can you identify a shift in mediastinum?
+Is there possible elevation of the diaphragm?
+Can segmental, lobar, or entire lung collapse be observed?
+Are there signs of bronchial obstruction?
+Does the patient show signs of chronic atelectasis including lung scarring or fibrosis?
+Is the trachea centrally positioned?
+Are the lung markings reduced?
+Is there an increased translucency in any lung region?
+Are the diaphragmatic domes flattened?
+Are lung fields clear on both sides?
+Does the cardiac silhouette appear normal?
+Can pleural lines be observed?
