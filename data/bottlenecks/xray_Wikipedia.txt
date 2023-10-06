@@ -1,0 +1,44 @@
+
+Is there lung opacification?
+Does the chest X-ray show signs of lung volume loss?
+Is there any sign of lung overinflation?
+Does the chest X-ray reveal evidence of trachea shifting?
+Can mediastinum shifting be observed on the chest X-ray?
+Does the chest X-ray show signs of obstructive emphysema?
+Are there any signs of consolidation on the chest X-ray?
+Does the X-ray indicate an obvious mass?
+Is there any sign of bronchial wall thickening on the chest X-ray?
+Are there indications of airway dilation on the chest X-ray?
+Can ground glass or consolidative opacities be observed in the X-ray?
+Does the chest X-ray show diffuse interstitial infiltrates?
+Does the X-ray show signs of diffuse alveolar opacities?
+Is there a visible enlargement of the heart?
+Are there signs of vascular redistribution?
+Are there indications of Kerley lines?
+Is there cuffing of the areas around the bronchi?
+Is there evidence of interstitial edema?
+Is there a presence of a pericardial effusion?
+Is there evidence of widespread pulmonary infiltrates?
+Is there a blunting of the costophrenic angle or partial or complete opacification of the affected half of the thorax?
+Are there changes in multiple areas and fluid in the area surrounding the lungs?
+Is the cardiopericardial silhouette enlarged?
+Are there signs of chronic effusion?
+Is there evidence of pleural effusion?
+Are there anterior subpleural consolidations?
+Are there cavities filled with air or fluid in the lungs?
+Are there opaque patches in the chest on imaging?
+Are there bilateral opacities that cannot be fully explained by other conditions such as effusion, lung or lobar collapse, or lung nodules?
+Are there infiltrates on a chest X-ray?
+Is there evidence of hyperinflation?
+Are there signs of lung hyperlucency?
+Does the patient have small, irregular parenchymal opacities?
+Are there areas of opacity due to fibrosis of the pulmonary parenchyma?
+Is there evidence of lung inflammation?
+Are lung nodules visible?
+Does the patient show signs of bronchiectasis and pleural scarring?
+Does the chest X-ray indicate any new opacification of the lung?
+Does the chest X-ray show features that appear similar to an extensive pneumonia, with both lungs showing widespread white patches?
+Is there upper-lobe consolidation present?
+Are there multifocal nodular lesions visible?
+Is there alveolar consolidation apparent?
+Are there infiltrates in the lower lobes of the lungs?
