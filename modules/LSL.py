@@ -253,3 +253,7 @@ if __name__ == "__main__":
 
     elif args.modality == "skin":
         features = torch.load(f'./data/datasets/ISIC/ISIC_whylesionclip.pt')
+        metadata = json.load(open('./data/datasets/ISIC/ISIC_metadata.json', 'r'))
+        annotations = json.load(open('./data/datasets/ISIC/ISIC_concept_annotations.json', 'r'))
+
+    finetune_clip(args, features, metadata, annotations)
