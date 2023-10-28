@@ -270,3 +270,58 @@ def extract_helper(t_list, key, batch_size, dataset_dir, output_path, model, pre
             torch.save(final_img, output_file_path)
             # Clear
             batch_count = 0
+            final_img = []
+        
+    # After finish check if we have remaining things in final_img
+    if len(final_img) != 0:
+        # Save them!
+        final_img = np.array(final_img)
+        output_file_path = output_path + key + "/" + f"{num_batch}.pt"
+        torch.save(final_img, output_file_path)
+
+
+def extract_vision(model, preprocess, split_dict, batch_size, img_dir_path, output_path, data_name, model_name, image_dir):
+    label_list = list(split_dict.keys())
+    label2index = {label_list[i]:i for i in range(len(label_list))}
+
+    torch.save(label2index, f"data/features/{model_name}/{data_name}_label.pt")
+    
+    for ll in label_list:
+        yes_list = split_dict[ll]
+        extract_helper(yes_list, ll, batch_size, img_dir_path, output_path, model, preprocess, image_dir)
+
+
+def extracted_features_dataset(dataset_dir, image_dir, model_name, dataset_name):
+    model, preprocess = load_model(model_name)
+
+    if not os.path.exists(f"./data/features/{model_name}/{dataset_name}"):
+        os.makedirs(f"./data/features/{model_name}/{dataset_name}")
+
+    split_path = dataset_dir + dataset_name + "/splits/"
+    for split in ["train", "val", "test"]:
+        with open(split_path + f"class2images_{split}.p", 'rb') as f:
+            split_dict = pickle.load(f)
+            output_path = f"./data/features/{model_name}/{dataset_name}/{split}/"
+
+            if not os.path.exists(output_path):
+                os.makedirs(output_path)
+
+            extract_vision(model, preprocess, split_dict, 64, dataset_dir, output_path, dataset_name, model_name, image_dir)
+
+    print(f"Datasets {dataset_name} finished extracting")
+
+
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument("--dataset_name", type=str, default="NIH-sex")
+    parser.add_argument("--model_name", type=str, default="whyxrayclip")
+    parser.add_argument("--dataset_dir", type=str, default="./data/datasets/")
+    parser.add_argument("--image_dir", type=str, default="./data/datasets/") # This is the path to where the images are stored
+
+    args = parser.parse_args()
+    dataset_name = args.dataset_name
+    model_name = args.model_name
+    dataset_dir = args.dataset_dir
+    image_dir = args.image_dir
+
+    extracted_features_dataset(dataset_dir, image_dir, model_name, dataset_name)
