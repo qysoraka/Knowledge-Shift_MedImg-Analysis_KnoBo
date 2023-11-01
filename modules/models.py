@@ -11,4 +11,9 @@ class LogisticRegressionT(torch.nn.Module):
         return outputs
 
 
-class MultiLabelModel(nn.Modul
+class MultiLabelModel(nn.Module):
+    def __init__(self, model, num_classes):
+        super(MultiLabelModel, self).__init__()
+        self.num_classes = num_classes
+        self.vision_encoder = model.visual
+        self.linear = nn.Line
