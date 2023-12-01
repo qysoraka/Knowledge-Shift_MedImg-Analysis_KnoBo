@@ -36,4 +36,10 @@ class MultiClassLogisticRegression(nn.Module):
 
 
 class PosthocHybridCBM(nn.Module):
-    def __init__(self, n_concepts, n_classes, n_image_features, apply_pri
+    def __init__(self, n_concepts, n_classes, n_image_features, apply_prior=False):
+        """
+        PosthocCBM Hybrid Layer. 
+        Takes an embedding as the input, outputs class-level predictions.
+        Uses both the embedding and the concept predictions.
+        Args:
+         
