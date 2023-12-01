@@ -51,4 +51,10 @@ class PosthocHybridCBM(nn.Module):
         self.apply_prior = apply_prior
 
         self.bottleneck_classifier = nn.Linear(self.n_concepts, self.n_classes)
-        self.residual_classifier = nn.Linear(self.n_image_featur
+        self.residual_classifier = nn.Linear(self.n_image_features, self.n_classes)
+
+    def forward(self, features):
+        image_features = features[:, :self.n_image_features]
+        concept_features = features[:, self.n_image_features:]
+
+        out = self.bottleneck_classifier(concept_
