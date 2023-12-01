@@ -47,4 +47,8 @@ class PosthocHybridCBM(nn.Module):
         super(PosthocHybridCBM, self).__init__()
         self.n_concepts = n_concepts
         self.n_classes = n_classes
-        self.n_image_fe
+        self.n_image_features = n_image_features
+        self.apply_prior = apply_prior
+
+        self.bottleneck_classifier = nn.Linear(self.n_concepts, self.n_classes)
+        self.residual_classifier = nn.Linear(self.n_image_featur
