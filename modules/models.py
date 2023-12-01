@@ -16,4 +16,13 @@ class MultiLabelModel(nn.Module):
         super(MultiLabelModel, self).__init__()
         self.num_classes = num_classes
         self.vision_encoder = model.visual
-        self.linear = nn.Line
+        self.linear = nn.Linear(768, num_classes)
+
+    def forward(self, x):
+        x = self.vision_encoder(x)
+        x = self.linear(x)
+        return x
+
+
+class MultiClassLogisticRegression(nn.Module):
+    def __init__(self, num_features, num_classes, prior, appl
