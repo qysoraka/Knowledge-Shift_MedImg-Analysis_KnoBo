@@ -42,4 +42,9 @@ class PosthocHybridCBM(nn.Module):
         Takes an embedding as the input, outputs class-level predictions.
         Uses both the embedding and the concept predictions.
         Args:
-         
+            bottleneck (PosthocLinearCBM): [description]
+        """
+        super(PosthocHybridCBM, self).__init__()
+        self.n_concepts = n_concepts
+        self.n_classes = n_classes
+        self.n_image_fe
