@@ -64,4 +64,13 @@ class PosthocHybridCBM(nn.Module):
 class DenseNetE2E(nn.Module):
     def __init__(self, denset_model, num_classes):
         super(DenseNetE2E, self).__init__()
-        s
+        self.denset_model = denset_model
+        self.linear_layer = nn.Linear(1024, num_classes)
+
+    def forward(self, x):
+        x = self.denset_model.features2(x)
+        x = self.linear_layer(x)
+        return x
+
+
+class ViTE2E(
