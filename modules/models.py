@@ -57,4 +57,11 @@ class PosthocHybridCBM(nn.Module):
         image_features = features[:, :self.n_image_features]
         concept_features = features[:, self.n_image_features:]
 
-        out = self.bottleneck_classifier(concept_
+        out = self.bottleneck_classifier(concept_features) + self.residual_classifier(image_features)
+        return out
+
+
+class DenseNetE2E(nn.Module):
+    def __init__(self, denset_model, num_classes):
+        super(DenseNetE2E, self).__init__()
+        s
