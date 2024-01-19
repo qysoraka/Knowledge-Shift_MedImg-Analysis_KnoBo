@@ -88,4 +88,9 @@ class ViTE2E(nn.Module):
 class CLIPBinary(nn.Module):
     def __init__(self, clip_model):
         super(CLIPBinary, self).__init__()
-        s
+        self.clip_model = clip_model
+        self.linear = nn.Linear(1536, 1)
+
+    def forward(self, images, texts):
+        text_features = self.clip_model.encode_text(texts)
+        image_features = self.clip_model.encode_image(im
