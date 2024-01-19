@@ -80,3 +80,12 @@ class ViTE2E(nn.Module):
         self.linear_layer = nn.Linear(768, num_classes)
 
     def forward(self, x):
+        x = self.vision_encoder(x)
+        x = self.linear_layer(x)
+        return x
+
+
+class CLIPBinary(nn.Module):
+    def __init__(self, clip_model):
+        super(CLIPBinary, self).__init__()
+        s
