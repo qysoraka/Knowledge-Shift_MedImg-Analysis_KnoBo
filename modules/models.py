@@ -73,4 +73,10 @@ class DenseNetE2E(nn.Module):
         return x
 
 
-class ViTE2E(
+class ViTE2E(nn.Module):
+    def __init__(self, clip_model, num_classes):
+        super(ViTE2E, self).__init__()
+        self.vision_encoder = clip_model.visual
+        self.linear_layer = nn.Linear(768, num_classes)
+
+    def forward(self, x):
