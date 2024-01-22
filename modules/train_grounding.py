@@ -107,3 +107,85 @@ def train_binary_model(concept, mapping, features, save_path):
 
     # downsample to keep the training data balanced
     random.seed(0)
+    if len(positive_data_train) > len(negative_data_train): positive_data_train = random.sample(positive_data_train, len(negative_data_train))
+    else: negative_data_train = random.sample(negative_data_train, len(positive_data_train))
+
+    print(f"Positive train: {len(positive_data_train)}, Negative train: {len(negative_data_train)}")
+    print(f"Positive val: {len(positive_data_val)}, Negative val: {len(negative_data_val)}")
+
+    train_features = [features[image].cpu() for image in positive_data_train] + [features[image].cpu() for image in negative_data_train]
+    train_labels = [1]*len(positive_data_train) + [0]*len(negative_data_train)
+
+    val_features = [features[image] for image in positive_data_val] + [features[image] for image in negative_data_val]
+    val_labels = [1]*len(positive_data_val) + [0]*len(negative_data_val)
+
+    train_features = torch.stack(train_features).cpu()
+    val_features = torch.stack(val_features).cpu()
+
+    train_labels = np.array(train_labels)
+    val_labels = np.array(val_labels)
+
+    model = LogisticRegression(max_iter=1000, class_weight='balanced', n_jobs=16)
+    model.fit(train_features, train_labels)
+
+    train_score = model.score(train_features, train_labels)
+    val_score = model.score(val_features, val_labels)
+
+    print(f"Saving model for {concept} ...")
+    print(f"Train score: {train_score}")
+    print(f"Test score: {val_score}")
+
+    with open(f"{model_save_path}/{concept}_results.txt", 'w') as f:
+        f.write(f"{train_score},{val_score}")
+
+    # save model
+    pickle.dump(model, open(f"{model_save_path}/{concept}.p", 'wb'))
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument("--modality", type=str, default="xray")
+    parser.add_argument("--normalize", type=bool, default=True)
+    parser.add_argument("--bottleneck", type=str, default="PubMed")
+    parser.add_argument("--max_examples", type=int, default=10000)
+    parser.add_argument("--train_samples", type=int, default=2000)
+
+    args = parser.parse_args()
+
+    save_path = f"./data/grounding_functions/{args.modality}/"
+    if not os.path.exists(save_path): os.makedirs(save_path)
+
+    print("Loading features/metadata/annotations ...")
+    if args.modality == "xray":
+        features = torch.load(f'./data/datasets/MIMIC-CXR/MIMIC-CXR_whyxrayclip.pt')
+        metadata = json.load(open('./data/datasets/MIMIC-CXR/MIMIC-CXR_metadata.json', 'r'))
+        annotations = json.load(open('./data/datasets/MIMIC-CXR/MIMIC-CXR_concept_annotations.json', 'r'))
+
+    elif args.modality == "skin":
+        features = torch.load(f'./data/datasets/ISIC/ISIC_whylesionclip.pt')
+        metadata = json.load(open('./data/datasets/ISIC/ISIC_metadata.json', 'r'))
+        annotations = json.load(open('./data/datasets/ISIC/ISIC_concept_annotations.json', 'r'))
+    
+    if args.normalize:
+        print("Normalizing features ...")
+        for key in features:
+            features[key] /= features[key].norm(dim=-1, keepdim=True)
+    
+    # get all concepts
+    with open(f"./data/bottlenecks/{args.modality}_{args.bottleneck}.txt", "r") as f:
+        all_concepts = f.read().strip().split("\n")
+    
+    for concept in tqdm(all_concepts):
+        if os.path.exists(f"{save_path}/{concept}/{concept}_results.txt"):
+            print(f"Model for {concept} already exists. Skipping ...")
+            continue
+         
+        mapping = get_mapping(args.modality, annotations, concept, metadata, features, args.max_examples, args.train_samples)
+
+        if mapping != False:
+            train_binary_model(
+                concept=concept,
+                mapping=mapping,
+                features=features,
+                save_path=save_path
+            )
