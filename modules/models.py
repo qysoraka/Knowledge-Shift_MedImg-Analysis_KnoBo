@@ -93,4 +93,7 @@ class CLIPBinary(nn.Module):
 
     def forward(self, images, texts):
         text_features = self.clip_model.encode_text(texts)
-        image_features = self.clip_model.encode_image(im
+        image_features = self.clip_model.encode_image(images)
+        x = torch.cat((text_features, image_features), dim=1)
+        x = torch.sigmoid(self.linear(x))
+        return x
