@@ -153,3 +153,121 @@ def load_features(feature_path, label2index, shots, normalize, random_seed):
         train_tmp = []
         val_tmp = []
         ood_tmp = []
+
+        # Get train val val
+        train_path_list = [f"{train_path}/{ll}/{yp}" for yp in os.listdir(f"{train_path}/{ll}")]
+        val_path_list = [f"{val_path}/{ll}/{yp}" for yp in os.listdir(f"{val_path}/{ll}")]
+        ood_path_list = [f"{ood_path}/{ll}/{yp}" for yp in os.listdir(f"{ood_path}/{ll}")]
+
+        for yp in train_path_list:
+            train_tmp.extend(torch.load(yp))
+
+        tmp_train_label.extend([label2index[ll]] * len(train_tmp))
+
+        for tp in val_path_list:
+            val_tmp.extend(torch.load(tp))
+
+        tmp_val_label.extend([label2index[ll]] * len(val_tmp))
+
+        for opp in ood_path_list:
+            ood_tmp.extend(torch.load(opp))
+
+        ood_label.extend([label2index[ll]] * len(ood_tmp))
+        tmp_train_list.extend(train_tmp)
+        tmp_val_list.extend(val_tmp)
+        ood_list.extend(ood_tmp)
+
+    df_train_tmp = pd.DataFrame(tmp_train_list)
+    df_train_tmp["labels"] = tmp_train_label
+
+    df_val_tmp = pd.DataFrame(tmp_val_list)
+    df_val_tmp["labels"] = tmp_val_label
+
+    df_ood = pd.DataFrame(ood_list)
+    df_ood["labels"] = ood_label
+
+    df_train= df_train_tmp.sample(frac=1, random_state=random_seed).reset_index(drop=True)
+    df_val = df_val_tmp.sample(frac=1, random_state=random_seed).reset_index(drop=True)
+    
+    if shots != "all":
+        # random sample number of shots for each class
+        df_train = df_train.groupby('labels').sample(n=int(shots), random_state=random_seed).reset_index(drop=True)
+        # shuffle the train set with fixed seed
+        df_train = df_train.sample(frac=1, random_state=random_seed).reset_index(drop=True)
+
+    X_train = torch.tensor(df_train[list(df_train.columns)[:-1]].values).float()
+    y_train = df_train["labels"].values
+
+    X_val = torch.tensor(df_val[list(df_val.columns)[:-1]].values).float()
+    y_val = df_val["labels"].values
+
+    ood_features = torch.tensor(df_ood[list(df_ood.columns)[:-1]].values).float()
+
+    if normalize:
+        print("Normalizing the features")
+        X_train /= X_train.norm(dim=-1, keepdim=True)
+        X_val /= X_val.norm(dim=-1, keepdim=True)
+        ood_features /= ood_features.norm(dim=-1, keepdim=True)
+    
+    return X_train, y_train, X_val, y_val, ood_features, ood_label
+
+
+def get_prior_matrix(modality, class_names, concepts):
+    prior = torch.zeros(len(class_names), len(concepts))
+    class2concept2answer = json.load(open(f"./data/bottlenecks/concept_priors/{modality}_class2concept2answer.json", "r"))
+
+    for i, c in enumerate(class_names):
+        for j, q in enumerate(concepts):
+            if class2concept2answer[c][q] == "yes": prior[i, j] = 1.0
+            elif class2concept2answer[c][q] == "no": prior[i, j] = -1.0
+            elif class2concept2answer[c][q] == "unknown": prior[i, j] = 0.0
+
+    return prior
+
+
+def compute_prior_loss(model):
+    model_weights = model.linear.weight
+    prior = model.prior
+    number_of_weights = model_weights.shape[0] * model_weights.shape[1]
+
+    # apply tanh to weights to map it to [-1, 1]
+    model_weights = torch.tanh(model_weights)
+
+    # compute l1 loss between the weights and the prior
+    prior_loss = torch.sum(torch.abs(model_weights - prior)) / number_of_weights
+
+    return prior_loss
+
+
+def map_weights(model, class_names, concepts):
+    model.eval()
+    weights = model.linear.weight
+    class2concept_weights = {}
+    for i, c in enumerate(class_names):
+        class2concept_weights[c] = {}
+        for j, q in enumerate(concepts):
+            class2concept_weights[c][q] = weights[i, j].item()
+    
+    # sort the weights based on the absolute value
+    class2concept_weights = {k: {kk: vv for kk, vv in sorted(v.items(), key=lambda item: item[1], reverse=True)} for k, v in class2concept_weights.items()}
+
+    return class2concept_weights
+
+
+def get_diversity_score(concepts):
+    from sentence_transformers import SentenceTransformer, util
+    sbert_model = SentenceTransformer('all-mpnet-base-v2', device = "cuda:0", cache_folder = "/nlp/data/yueyang/packages/sentence_transformer/")
+    
+    sentence_embeddings = sbert_model.encode(concepts, convert_to_tensor=True)
+
+    cosine_scores = util.pytorch_cos_sim(sentence_embeddings, sentence_embeddings)
+    cosine_distance = 1 - cosine_scores
+
+    # set diagonal to 1
+    for i in range(len(cosine_distance)):
+        cosine_distance[i][i] = 1
+    
+    # get the mean of each row
+    mean_values = cosine_distance.mean(dim=1)
+
+    return mean_values.mean().item()
