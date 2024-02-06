@@ -6,4 +6,11 @@
 
 
 <h4 align="center">
-  <a href="https://arxiv.org/abs/2405.14839">Paper</i></a> | <a href="https://qysor
+  <a href="https://arxiv.org/abs/2405.14839">Paper</i></a> | <a href="https://qysoraka.github.io/Knowledge-Shift_MedImg-Analysis_KnoBo/">Project Page</i></a>
+</h4>
+
+## Table of Contents
+1. [CLIP Models](#clip-models)
+2. [Installation](#installation)
+3. [Quick Start](#quick-start)
+4. [Directories](#dir
