@@ -13,4 +13,8 @@
 1. [CLIP Models](#clip-models)
 2. [Installation](#installation)
 3. [Quick Start](#quick-start)
-4. [Directories](#dir
+4. [Directories](#directories)
+5. [Extract Features](#extract-features)
+6. [Generate Bottlenecks from Medical Documents](#generate-bottlenecks-from-medical-documents)
+7. [Train Grounding Functions](#train-grounding-functions)
+8. [B
