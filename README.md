@@ -17,4 +17,13 @@
 5. [Extract Features](#extract-features)
 6. [Generate Bottlenecks from Medical Documents](#generate-bottlenecks-from-medical-documents)
 7. [Train Grounding Functions](#train-grounding-functions)
-8. [B
+8. [Baselines](#baselines)
+
+(All the original content here)
+
+## Citation
+Please cite our paper if you find our work useful!
+```bibtex
+@article{yang2024textbook,
+      title={A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis}, 
+      auth
