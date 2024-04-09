@@ -26,4 +26,8 @@ Please cite our paper if you find our work useful!
 ```bibtex
 @article{yang2024textbook,
       title={A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis}, 
-      auth
+      author={Yue Yang and Mona Gandhi and Yufei Wang and Yifan Wu and Michael S. Yao and Chris Callison-Burch and James C. Gee and Mark Yatskar},
+      journal={arXiv preprint arXiv:2405.14839},
+      year={2024}
+}
+```
